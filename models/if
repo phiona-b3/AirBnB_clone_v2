@@ -1,0 +1,15 @@
+
+bject_dict = {}
+
+            for key, value in self.__objects.items():
+
+                if type(value) == cls:
+
+                    object_dict[key] = value
+
+            return object_dict
+
+
+
+        return self.__objects
+
