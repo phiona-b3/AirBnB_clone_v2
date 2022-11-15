@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from flask import Flask
+import Flask from flask
 """Init the flask service"""
 app = Flask(__name__)
 app.url_map.strict_slashes = False
