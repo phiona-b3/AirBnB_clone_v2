@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""starting a flask web application"""
 from flask import Fask
-
+"""starting a flask web application"""
 app = Flask(__name__)
 app.strict_slashes = False
 
